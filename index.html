@@ -5,72 +5,107 @@
     <title>Mini Project</title>
     <meta name="author" content="Atchariya">
     <meta name="description" content="Miniproject CSS TECHUP">
-    <link rel="stylesheet" href="./header.css">
+    <link rel="stylesheet" href="./style/header.css">
+    <link rel="stylesheet" href="./style/logos.css">
 </head>
 <body>
 
     <header class="header">
         <nav class="nav">
             <div class="menu">
-                <img src="./asset/image/Logo.svg" alt="logo-website"/>
-                <img src="./asset/image/dropdownmenu.svg" alt="dropdownmenu"/>
+                <div class="nav-logo"><img src="./asset/image/Logo.svg" alt="logo-website"/></div>
+                <div class="nav-dropdown"><img src="./asset/image/dropdownmenu.svg" alt="dropdownmenu"/></div>    
+                <div class="nav-button-box">
+                    <div class="nav-button">Company</div>
+                    <div class="nav-button">Feature</div>
+                    <div class="nav-button">Pricing</div>
+                    <div class="nav-button">Log In</div>
+                    <button class="cta-button">Try Free</button>
+                </div>
             </div>
         </nav>
-
-        <div class="present-image-box">
-            <div class="background-image">
-                <div class="main-image">
-                    <img src="./asset/image/main-present.svg"
-                        width="148px"
-                        height="278px" 
-                        alt="man-standing"/>
-                </div>
-                <div class="rating-image">
-                    <div class="rating-text">Great Designer</div>
-                    <div class="rating-star" ><img src="./asset/image/rating-star.svg" alt="rating-star" /></div>
-                    <div class="rating-icon" ><img src="./asset/image/rating-icon.svg" alt="rating-icon" /></div>
-                </div>
-                <div class="notification-image-box">
-                    <div class="notification-icon">
-                        <img src="./asset/image/notification-icon.svg" alt="notification-icon" />
+        <div class="header-container">
+            <div class="present-image-box">
+                <div class="background-image">
+                    <div class="main-image">
+                        <img src="./asset/image/main-present.svg"
+                            width="148px"
+                            height="278px" 
+                            alt="man-standing"/>
                     </div>
-                    <div class="notification">
-                        <div class="notification-title">
-                            Notification
+                    <div class="rating-image">
+                        <div class="rating-text">Great Designer</div>
+                        <div class="rating-star" ><img src="./asset/image/rating-star.svg" alt="rating-star" /></div>
+                        <div class="rating-icon" ><img src="./asset/image/rating-icon.svg" alt="rating-icon" /></div>
+                    </div>
+                    <div class="notification-image-box">
+                        <div class="notification-icon">
+                            <img src="./asset/image/notification-icon.svg" alt="notification-icon" />
                         </div>
-                        <div class="notification-text">
-                            <span>Send a message to</span>
-                            <span>Ilya Zinchenko</span>
+                        <div class="notification">
+                            <div class="notification-title">
+                                Notification
+                            </div>
+                            <div class="notification-text">
+                                <span>Send a message to</span>
+                                <span>Ilya Zinchenko</span>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="message-image">
-                    <div class="message-icon"><img src="./asset/image/message-icon.svg" alt="message-icon" /></div>
-                    <div class="message-text">
-                        <div class="message-title">Gavin Henry</div>
-                        <div class="message-time">1m ago</div>
+                    <div class="message-image">
+                        <div class="message-icon"><img src="./asset/image/message-icon.svg" alt="message-icon" /></div>
+                        <div class="message-text">
+                            <div class="message-title">Gavin Henry</div>
+                            <div class="message-time">1m ago</div>
+                        </div>
+                        <div class="new-message-icon"><img id="secondary-image" src="./asset/image/new-message-icon.svg" alt="new-message-icon" /></div>
                     </div>
-                    <div class="new-message-icon"><img src="./asset/image/new-message-icon.svg" alt="new-message-icon" /></div>
                 </div>
             </div>
-        </div>
-        <div class="welcome-text">
-            Welcome QuickSpace
-        </div>
-        <div class="promo-title">
-            <span>Satisfied Customer</span>
-            <span>Is the Best Business</span>
-            <span>Strategy</span>
-        </div>
-        <div class="promo-description">
-            Backed with vast experience and fully up to date skills set, at Enuke Software offer the best in class E-Prescription solution
-        </div>
 
-        <button class="cta-button">Try Free</button>
+            
+            <div class="present-text-box">
+                <div class="welcome-text">
+                    Welcome QuickSpace
+                </div>
+                <div class="promo-title">
+                    <span>Satisfied Customer</span>
+                    <span>Is the Best Business</span>
+                    <span>Strategy</span>
+                </div>
+                <div class="promo-description">
+                    <span>Backed with vast experience and fully up to date skills</span>
+                    <span>set, at Enuke Software offer the best in class</span>
+                    <span>E-Prescription solution</span>
+                </div>
+                <div class="heder-button-box">
+                    <div>
+                    <button class="cta-button">Try Free</button>
+                    </div>
+                    <div class="demo-link">
+                        <div><img src="./asset/image/play-icon.svg" /></div>
+                        <div class="demo-link-text">View Demo</div>
+                    </div>
+                </div>
+            </div>
 
-        <div class="demo-link">
-            <div><img src="./asset/image/play-icon.svg" /></div>
-            <div class="demo-link-text">View Demo</div>
+        </div>
+        <div class="logos-box">
+            <div class="logos-bar">
+                <div class="logo">
+                    <img src="./asset/image/logos-bar/brand-01.svg" alt="brand-01" />
+                </div>
+                <div class="logo">
+                    <img src="./asset/image/logos-bar/brand-02.svg" alt="brand-02" />                    
+                </div>
+                <div class="logo">
+                    <img src="./asset/image/logos-bar/brand-03.svg" alt="brand-03" />                    
+                </div>
+                <div class="logo-mobile">
+                    <img src="./asset/image/logos-bar/brand-04.svg" alt="brand-04" />                    
+                </div>
+            </div>
+
         </div>
 
 

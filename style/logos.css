@@ -1,0 +1,28 @@
+.logos-box {
+    width: 100vw;
+    height: 91px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logos-bar {
+    width: 90%;
+    height: 30.95px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.logo-mobile {
+    display: none;
+}
+
+@media only screen and (min-width: 1200px) {
+    .logo img {
+        transform: scale(1.8);
+    }
+    .logo-mobile {
+        display: block;
+    }
+}
