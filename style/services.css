@@ -1,0 +1,15 @@
+/* สไตล์สำหรับลิงก์ Get Started */
+.get-started {
+    font-size: 16px;
+    color: #282D648C;
+    text-align: center;
+    text-decoration: none;
+}
+
+.get-started:hover {
+    color: #1e2dd38c;
+}
+
+.get-started:active {
+    color: #0508248c;
+}
