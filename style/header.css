@@ -68,7 +68,6 @@ nav .nav-button-box {
 }
 
 .rating-text {
-    font-family: Poppins;
     font-size: 7px;
     font-weight: 600;
     line-height: 5.11px;
@@ -105,7 +104,6 @@ nav .nav-button-box {
 }
 
 .notification-title {
-    font-family: Poppins, sans-serif;
     font-size: 10px;
     text-align: left;
     color: #858A8F;
@@ -147,7 +145,6 @@ nav .nav-button-box {
 }
 
 .message-title {
-    font-family: Poppins, sans-serif;
     font-size: 10px;
     font-weight: 600;
     color: #535783;
@@ -173,7 +170,6 @@ nav .nav-button-box {
     height: 40px;
     border-radius: 10px;
     background-color: #F8FAFF;
-    font-family: Poppins, sans-serif;
     font-size: 14px;
     font-weight: 600;
     line-height: 40px;
@@ -184,7 +180,6 @@ nav .nav-button-box {
 .promo-title {
     width: 317px;
     height: 153px;
-    font-family: Poppins, sans-serif;
     font-size: 32px;
     font-weight: 600;
     text-align: center;
@@ -199,7 +194,6 @@ nav .nav-button-box {
     flex-direction: column;
     width: 343px;
     height: 89px;
-    font-family: Poppins, sans-serif;
     font-size: 14px;
     line-height: 28px;
     font-weight: 400;
@@ -222,7 +216,6 @@ nav .nav-button-box {
     border-radius: 6px;
     background-color: #293FCC;
     color: #ffffff;
-    font-family: Poppins, sans-serif;
     font-size: 18px;
     font-weight: 600;
     border: none;
@@ -242,7 +235,6 @@ nav .nav-button-box {
 }
 
 .link-demo-text {
-    font-family: Poppins, sans-serif;
     font-size: 16px;
     font-weight: 400;
     color: #0B0757;
@@ -271,7 +263,6 @@ nav .nav-button-box {
         flex-direction: row;
         align-items: center;
         gap: 20px;
-        font-family: Poppins, sans-serif;
         font-size: 18px;
         font-weight: 400;
         color: #090F4E;
@@ -306,7 +297,6 @@ nav .nav-button-box {
         height: 48px;
     }
     .rating-text {
-        font-family: Poppins, sans-serif;
         font-size: 12px;
         font-weight: 600;
         line-height: 24px;
@@ -338,7 +328,6 @@ nav .nav-button-box {
         height: 50px;
     }
     .notification-title {
-        font-family: Poppins;
         font-size: 13px;
         padding: 7px 0px 0px 13px;
     }
@@ -364,7 +353,6 @@ nav .nav-button-box {
         margin: 0px;
     }
     .promo-title {
-        font-family: Poppins, sans-serif;
         width: 436px;
         height: 210px;
         gap: 0px;
@@ -377,7 +365,6 @@ nav .nav-button-box {
     .promo-description {
         width: 445px;
         height: 96px;
-        font-family: Poppins, sans-serif;
         font-size: 16px;
         line-height: 32px;
         font-weight: 400;
