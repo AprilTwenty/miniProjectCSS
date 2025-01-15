@@ -1,8 +1,106 @@
-/* สไตล์สำหรับลิงก์ Get Started */
+.services {
+    height: 1677px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.services-title {
+    text-align: center;
+}
+
+.services-title h1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 16px;
+}
+
+.services-title p {
+    width: 343px;
+    height: 114px;
+    padding: 16px;
+}
+
+.business-solutions {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.business-section {
+    width: 343px;
+    height: 390px;
+    padding: 40px 0px 40px 35px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 24px;
+
+}
+
+.business-section:hover {
+    box-shadow: 0px 20px 47px 0px #0000000D;
+}
+
+#busniess-section-order1{
+    order: 3;
+}
+
+#busniess-section-order2{
+    order: 1;
+}
+
+#busniess-section-order3{
+    order: 2;
+}
+
+.business-icon {
+    width: 106px;
+    height: 106px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#business-icon1 {
+    background-color: #FFF0E9;
+}
+
+#business-icon2 {
+    background-color: #E9EDFF;
+}
+
+#business-icon3 {
+    background-color: #FFF6DD;
+}
+
+.busniess-content {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.business-title {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+
+
+}
+
+.busniess-text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+
+}
+
 .get-started {
     font-size: 16px;
+    font-weight: 600;
     color: #282D648C;
-    text-align: center;
     text-decoration: none;
 }
 
@@ -12,4 +110,28 @@
 
 .get-started:active {
     color: #0508248c;
+}
+
+@media only screen and (min-width: 1200px) {
+    .services {
+        width: 1440px;
+        height: 860px;
+    }
+    .services-title h1 {
+        display: flex;
+        flex-direction: row;
+    }
+    .services-title p {
+        width: 764px;
+        height: 67px;
+    }
+    .business-solutions {
+        display: flex;
+        flex-direction: row;
+    }
+    .business-section {
+        width: 350px;
+        height: 390px;
+        padding: 40px 0px 40px 38px;
+    }
 }
