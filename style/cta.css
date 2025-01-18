@@ -2,3 +2,19 @@
     display: flex;
     flex-direction: column;
 }
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    background-image: url("../asset/image/cta/checkmark.svg");
+    background-repeat: no-repeat;
+    padding-left: 32px;
+}
+
+@media only screen and (min-width: 1200px) {
+    .cta {
+        display: flex;
+    }
+}
