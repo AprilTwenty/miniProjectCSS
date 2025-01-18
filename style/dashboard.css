@@ -56,7 +56,6 @@
     }
     .main-graph-mobile {
         display: none;
-        margin: -500px 0px 0px 0px;
     }
     .graph {
         display: block;
