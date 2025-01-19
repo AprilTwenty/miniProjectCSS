@@ -4,6 +4,8 @@
     align-items: center;
     text-align: center;
     gap: 16px;
+    background: linear-gradient(359.64deg, #F0F4FF 0.29%, rgba(242, 245, 255, 0) 103.06%);
+
 }
 
 .dashboard button {

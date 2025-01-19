@@ -1,20 +1,165 @@
 .cta {
     display: flex;
     flex-direction: column;
+    text-align: center;
+    background: linear-gradient(359.64deg, rgba(240, 244, 255, 0.34) 1.76%, rgba(242, 245, 255, 0) 103.06%);
+    gap: 35px;
+    width: 375px;
+}
+
+.cta .title h1 {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 48px;
+    color: #090F4E;
+}
+
+.cta .title p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 36px;
+    color: #63657E;
+}
+
+.radio-select-bill-type {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.radio-select-bill-type .detail {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #63657E;
+}
+
+.member-type-container {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-self: center;
+}
+
+.member-type {
+    width: 343px;
+    height: 634px;
+    text-align: left;
+    background: #FFFFFF;
+    border: 2px solid #F5F6FA;
+    box-shadow: 0px 20px 47px 0px #0000000D;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    padding: 30px;
+}
+
+#base{
+    visibility: hidden;   
+}
+#unlimited {
+    visibility: hidden;
+}
+
+.member-type .type {
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 39px;
+    color: #090F4E;
+}
+
+.member-type .detail {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #63657E;
+}
+
+.member-type .prize {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: end;
+    padding: 0px 0px 30px 0px;
+    margin: 15px 0px 15px 0px;
+    border-bottom: 1.5px solid #F5F6FA;
+}
+
+.member-type .prize .value {
+    font-size: 42px;
+    font-weight: 600;
+    line-height: 51px;
+    color: #090F4E;
+}
+
+.member-type .prize .detail {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    color: #63657E;
+}
+
+.member-type ul {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #63657E;
+}
+
+
+.member-type .cta-button {
+    width: 290px;
+    height: 66px;
+    border-radius: 10px;
+    color: #293FCC;
+    background-color: #E5F1FF;
+    align-self: center;
+}
+
+.member-type .cta-button:hover {
+    color: #FFFFFF;
+    background-color: #293FCC;
 }
 
 ul {
     list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
 }
 
 li {
     background-image: url("../asset/image/cta/checkmark.svg");
     background-repeat: no-repeat;
     padding-left: 32px;
+    height: 24px;
 }
 
 @media only screen and (min-width: 1200px) {
     .cta {
-        display: flex;
+        width: 1440px;
     }
+    .cta .title h1 {
+        font-size: 30px;
+        line-height: 73px;
+    }
+    .radio-select-bill-type .detail {
+        font-size: 18px;
+    }
+    .member-type {
+        width: 350px;
+    }
+    .member-type .type img {
+        display: none;
+    }
+    #base{
+        visibility: visible;
+    }
+    #unlimited {
+        visibility: visible;
+    }
+
 }
