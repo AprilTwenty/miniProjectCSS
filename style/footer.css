@@ -2,3 +2,138 @@ footer {
     display: flex;
     flex-direction: column;
 }
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.footer-logo {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding-left: 8px;
+    padding-top: 83px;
+}
+
+.footer-logo .logo img {
+    width: 255px;
+    height: 38px;
+}
+
+.footer-detail {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #8480AE;
+}
+
+.link-icon {
+    display: flex;
+    flex-direction: row;
+    gap: 13px;
+}
+
+.bg-icon {
+    width: 32px;
+    height: 32px;
+    border-radius: 100%;
+    background-color: #293FCC1A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mobile-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 18px;
+    padding-right: 32px;
+    border-bottom: 1px solid #70759C1A;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #0B0757;
+}
+
+.web-detail {
+    display: none;
+}
+
+.home {
+    display: none;
+}
+
+.pages {
+    padding-left: 8px;
+}
+
+.pages .detail {
+    display: none;
+}
+
+.address {
+    padding-left: 8px;
+}
+
+.address .detail {
+    display: none;
+}
+
+.copyright {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: -0.30000001192092896px;
+    text-align: center;
+    color: #8480AE;
+}
+
+@media only screen and (min-width: 1200px) {
+    .footer-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        gap: 24px;
+    }
+    .footer-logo .logo img {
+        width: 150px;
+        height: 32.01px;
+    }
+    .link-icon {
+        display: none;
+    }
+    .footer-detail {
+        display: none;
+    }
+    .mobile-title {
+        display: none;
+    }
+    .web-detail {
+        display: flex;
+        flex-direction: row;
+        gap: 14px;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 30px;
+        color: #63657E;
+    }
+    .home {
+        display: block;
+        padding-top: 53px;
+    }
+    ul {
+        list-style-type: none;
+    }
+
+    .pages {
+        padding-top: 53px;
+    }
+    .address {
+        padding-top: 53px;
+    }
+}
+
+ 
