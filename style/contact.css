@@ -62,11 +62,22 @@
     background-color: #293FCC;
     color: #FFFFFF;
     border: none;
-
-
 }
 
 @media only screen and (min-width: 1200px){
+    .contact {
+        font-family: Rubik, sans-serif;
+        width: 1117px;
+        height: 360px;
+        border-radius: 30px;
+        background-color: #E7F5FF;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 107px;
+        gap: 16px;
+    }
     .contact h1 {
         font-family: Poppins, sans-serif;
         font-weight: 600;
@@ -81,11 +92,8 @@
     .contact-input{
         width: 480px;
         height: 67px;
-
-
     }
     .contact-input::placeholder {
         font-family: Poppins, sans-serif;
-
     }
 }
