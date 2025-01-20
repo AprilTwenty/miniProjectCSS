@@ -35,6 +35,10 @@ footer {
     gap: 13px;
 }
 
+.link-icon-pc {
+    display: none;
+}
+
 .bg-icon {
     width: 32px;
     height: 32px;
@@ -89,14 +93,18 @@ footer {
     letter-spacing: -0.30000001192092896px;
     text-align: center;
     color: #8480AE;
+    padding: 32px;
+}
+
+.copyright-pc {
+    display: none;
 }
 
 @media only screen and (min-width: 1200px) {
     .footer-container {
-        display: flex;
         flex-direction: row;
         justify-content: space-around;
-        gap: 24px;
+        gap: 100px;
     }
     .footer-logo .logo img {
         width: 150px;
@@ -119,6 +127,13 @@ footer {
         font-weight: 400;
         line-height: 30px;
         color: #63657E;
+        width: 276px;
+        height: 80px;
+        align-items: center;
+    }
+    .web-detail img {
+        width: 24px;
+        height: 24px;
     }
     .home {
         display: block;
@@ -127,12 +142,53 @@ footer {
     ul {
         list-style-type: none;
     }
-
     .pages {
         padding-top: 53px;
     }
+    .pages .detail {
+        display: block;
+    }
+    .detail h1{
+        font-size: 22px;
+        font-weight: 500;
+        line-height: 33px;
+        color: #090F4E;
+    }
+    .detail p{
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 30px;
+        color: #63657E  ;
+    }
     .address {
         padding-top: 53px;
+    }
+    .address .detail {
+        display: block;
+    }
+    .link-icon-pc {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        padding: 30px;
+    }
+    .copyright {
+        display: none;
+    }
+    .copyright-pc {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 30px;
+        color: #63657E;
+    }
+    .nav-footer {
+        display: flex;
+        flex-direction: row;
+        gap: 15px;
     }
 }
 
